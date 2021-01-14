@@ -1,0 +1,269 @@
+*{margin: 0; padding: 0;}
+a,u{text-decoration: none;}
+li{list-style: none;}
+.container{
+    width: 100%;
+    padding: 0;
+}
+/* 菜单 */
+.hander a:hover{
+	color: #e77b34;
+}
+.hander{
+    width: 1030px;
+    height:34px ;
+    background-color: #F2F2F2;
+    padding: 0 100px;
+    font-size: 12px;
+    color: rgb(138, 137, 137);
+    line-height: 34px;
+    margin: 0 auto;
+
+}
+.left{
+    width: 400px;
+    float: left;
+}
+.left a{
+    color: #999;
+    margin-left: 30px;
+}
+
+ul, ol, li {
+    list-style: none;
+  }
+.right{
+    float: right;
+    width: 500px;
+}
+.right a{
+    color: #999;
+    text-decoration: none;
+    display: block;
+
+}
+.right ol{
+    display: flex;
+    height: 34px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.right li{
+    line-height: 34px;
+    position: relative;
+    z-index: 999;
+}
+
+.right ol li ol{
+    display: none;
+    /* padding-top: 60px; */
+    width: 50px;
+    position: absolute;
+    top: 34px;
+    /* left: 30px; */
+    color: rgb(68, 67, 67);
+    text-align: center;
+
+}
+.right > .ol1 > li.active {
+    /* background-color: rgb(164, 240, 227); */
+    border-bottom: 1px solid #FF0036;
+  }
+
+  /*搜索  */
+  .search{
+    width: 1230px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.search img{
+    /* margin:20px 60px; */
+    float: left;
+    width: 270px;
+    height: 37%;
+    position: absolute;
+    left: 40px;
+    top:45px;
+}
+.box{
+    width: 499px;
+    height: 39px;
+    border: 1px solid #FF0036;
+    float: right;
+    margin-right: 300px;
+    /* margin: 0 auto; */
+    margin-top: 40px;
+    position: relative;
+    z-index: 100;
+}
+
+.box input{
+    width: 355px;
+    height: 38px;
+    float: left;
+    border: none;
+    outline: none;
+    display: block;
+    padding-left: 10px;
+
+
+}
+.box button{
+    width: 130px;
+    height: 40px;
+    background-color:  #FF0036;
+    float: right;
+    outline: none;
+    border: none;
+    color: #fff;
+    float: right;
+    
+
+}
+
+.search .box ul {
+    width: 369px;
+    border: 1px solid rgb(199, 196, 196);
+    box-sizing: border-box;
+    border-top: none;
+    display: none;
+    margin-top: 41px;
+    background-color: #fff;
+    border-bottom: none;
+
+
+  }
+
+  .search .box ul > li {
+    height: 30px;
+    line-height: 29px;
+    list-style: none;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0 10px;
+    color: rgb(77, 76, 76);
+
+  }
+
+  .search ul > li:hover {
+    background-color: #FF0036;
+    color: #fff;
+  }
+
+
+
+
+
+.content, .info {
+    margin-top: 30px;
+  }
+  
+  .filterinfo li {
+    width: 100%;
+    height: 80px;
+    display: flex;
+  }
+  
+  .filterinfo li > .left {
+    width: 130px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .filterinfo li > .right {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+  }
+  
+  .filterinfo li > .right > span {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 0 3px;
+    cursor: pointer;
+  }
+  
+  .filterinfo li > .right > span.active,
+  .filterinfo li > .right > span:hover {
+    background-color: #fc774fe7;
+    color: #fff;
+    border-radius: 3px;
+  }
+  
+  .goodsList > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+   .goodsList  li {
+    box-sizing: border-box;
+    float: left;
+    width: 18%;
+  }
+  
+   .goodsList  li h5 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  
+   .goodsList > li .price {
+    font-size: 14pxs;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination a {
+    padding: 0 5px;
+    border: 1px solid #333;
+    margin: 0 5px;
+  }
+  
+/* footer */
+footer{
+  width: 100%;
+  height: 240px;
+  background-color: black;
+  margin: 0 auto;
+  position: relative;
+  border-top: 2px solid #FF0036;
+}
+footer .foot{
+  width: 1030px;
+  height: 240px;
+  margin: 0 auto;
+  position: relative;
+
+}
+footer img{
+  position: absolute;
+  width: 136px;
+  height: 50px;
+  left: 100px;
+  top: -50px;
+}
+.foot ul{
+  display: flex;
+  padding: 20px 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+
+}
+.foot p{
+  padding: 5px 40px;
+  font-size: 14px;
+  color: #626262;
+}

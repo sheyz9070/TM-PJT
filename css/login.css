@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.content{
+  width: 1200px;
+  height: 500px;
+  position: relative;
+}
+.header > img{
+  padding: 12px 10px 12px;
+  height: 50px;
+  margin: auto;
+}
+
+.info_content {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  position: absolute;
+  right: 100px;
+  bottom: 30px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.info_header{
+  padding:10px 0;
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  width: 300px;
+  height: 50px;
+  line-height: 30px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+ color: #fff;
+
+  background-color: rgb(251, 23, 23);
+}
+
+
